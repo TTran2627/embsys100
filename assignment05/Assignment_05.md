@@ -7,18 +7,18 @@
    * And what are the value in R0 and R1 when swap_pointer is called? **The swap_pointer function need to have 2 input arguments (*xPr and *yPr). In Cortex M4,r0-r3 are used to pass argument in and out of function. Therefore, when the swap_pointer function is called, the R0 and R1 will store the memory address of xPr and yP**
    * Share a screen shot of the local variables insid of "main" after the function swap_pointer() return, showing the values of the pointers and what they are pointing to, similar to picture below?
 
-![Image of swap_pointer](https://github.com/TTran2627/embsys100/blob/master/assignment01/HelloWorld.PNG)
+![Image of swap_pointer](https://github.com/TTran2627/embsys100/blob/master/assignment05/Picture/swap_pointer.PNG)
 
 
 
 2. Run sqrAsm code from the class demo:
 
-![Image of sqrAsm.s](https://github.com/TTran2627/embsys100/blob/master/assignment01/HelloWorld.PNG)
+![Image of sqrAsm.s](https://github.com/TTran2627/embsys100/blob/master/assignment05/Picture/sqrAsm_demo.PNG)
 
 3. Create and run div2Asm.s:
 
-![Image of div2Asm.s](https://github.com/TTran2627/embsys100/blob/master/assignment01/HelloWorld.PNG)
+![Image of div2Asm.s](https://github.com/TTran2627/embsys100/blob/master/assignment05/Picture/div2Asm_demo.PNG)
 
 4. Create and run swapCharAsm :
 
-![Image of swapCharAsm.s](https://github.com/TTran2627/embsys100/blob/master/assignment01/HelloWorld.PNG)
+![Image of swapCharsAsm.s](https://github.com/TTran2627/embsys100/blob/master/assignment05/Picture/swapCharsAsm_demo.PNG)
