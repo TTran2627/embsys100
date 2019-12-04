@@ -30,7 +30,7 @@ void main(void)
     // Set bit[11:10] to 0x01  so --> 0x400 // To enable Port5 as output
     //GPIOA_MODER |= 0x400;
     //*((unsigned int*)((0x42000000) + (0x20000 * 32) + (10 * 4))) = 0x1; // using bit band
-    GPIOA->MODER |= 0x400;
+    GPIOA->MODER |= GPIO_MODER_MODE5_0;
 
     // GPIOA Base Address: 0x40020000
     // GPIO port output data register (GPIOx_ODR) (x = A..E and H)
@@ -43,12 +43,12 @@ void main(void)
       delay(1000000);
     //GPIOA_ODR |= GPIOA;
       //*((unsigned int*)((0x42000000) + (0x20014 * 32) + (5 *4))) = 0x1; // using bit band 
-      GPIOA->ODR |= (1<<5);
+      GPIOA->ODR |= GPIO_ODR_OD5;
       
       delay(1000000);
     //GPIOA_ODR &= ~GPIOA;
     // *((unsigned int*)((0x42000000) + (0x20014 * 32) + (5 *4))) = 0x0; // using bit band 
-      GPIOA->ODR &= ~(1<<5);
+      GPIOA->ODR &= ~GPIO_ODR_OD5;
 
     }
 }
