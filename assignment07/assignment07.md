@@ -6,4 +6,4 @@
 
 
 
-![Image of swap_pointer](https://github.com/TTran2627/embsys100/blob/master/assignment07/capture.PNG)
+![Image of capture stack](https://github.com/TTran2627/embsys100/blob/master/assignment07/Capture.PNG)
